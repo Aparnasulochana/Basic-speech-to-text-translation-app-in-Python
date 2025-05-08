@@ -1,18 +1,41 @@
-# Basic-speech-to-text-translation-app-in-Python
- Building a basic speech-to-text translation app in Python using the speech_recognition library and the deep_translator package for translating speech into another language.
-**Speech Recognition:**
-The speech_recognition library listens to the microphone and converts spoken words into text.
-**Translation:**
-The deep_translator library uses the Google Translator API to translate the recognized text into the specified language.
-# How It Works:
-**Step 1 - Speak the Language Code:**
-The user is prompted to speak the language code (e.g., 'es', 'fr') which the program will recognize using speech-to-text.
-**Step 2 - Speak the Text to Translate:**
-After recognizing the language code, the program will prompt the user to speak the text to be translated.
-**Step 3 - Translation:**
-The recognized text is then sent to the deep_translator API to translate into the language specified in the first step.
+🗣️ Basic Speech-to-Text Translation App in Python
 
-# Example Interaction:
-Step 1: You say "es" (for Spanish).
-Step 2: Then, you say "Hello, how are you?"
-Step 3: The app will translate "Hello, how are you?" into Spanish and print the translated text.
+A simple Python-based translator app that uses your voice to recognize speech and translate it into another language. This project leverages the power of the speech_recognition library to convert speech to text and the deep_translator package to handle translations via the Google Translator API.
+
+📌 Features
+
+🎧 Speech Recognition: Converts spoken language into text using your microphone.
+
+🌐 Multilingual Translation: Translates recognized text into your chosen target language using Google Translate.
+
+💃 Voice-Activated Input: Speak both the target language code and the text to translate — no typing needed!
+
+🔧 How It Works
+
+Step 1 - Speak the Language Code
+
+The app prompts you to say a valid language code like:
+
+'es' for Spanish
+
+'fr' for French
+
+'hi' for Hindi
+
+'de' for German(The full list of supported codes can be found in the code.)
+
+Step 2 - Speak the Text to Translate
+
+Once the language code is recognized, the app prompts you to say the sentence you want to translate.
+
+Step 3 - Get the Translation
+
+The app translates your sentence into the specified language using the Google Translator API and prints the result.
+
+💬 Example Interaction
+
+👤 You say: "es"
+
+👤 Then you say: "Hello, how are you?"
+
+📢 The app responds: "Hola, ¿como estas?"
